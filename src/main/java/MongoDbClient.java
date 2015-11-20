@@ -20,5 +20,6 @@ public class MongoDbClient {
         MongoCollection<Document> collection = database.getCollection("proj");
         System.out.print(collection.count());
 
+
     }
 }
