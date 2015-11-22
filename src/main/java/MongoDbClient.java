@@ -9,6 +9,11 @@ import java.util.Arrays;
 
 public class MongoDbClient {
 
+    public MongoDbClient()
+    {
+        ;
+    }
+
     public static void main( String args[] ) {
 
 
