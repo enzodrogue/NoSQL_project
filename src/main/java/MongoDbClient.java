@@ -12,6 +12,11 @@ import java.util.Date;
 
 public class MongoDbClient {
 
+    public MongoDbClient()
+    {
+        ;
+    }
+
     public static void main( String args[] ) {
 
 
