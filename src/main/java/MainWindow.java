@@ -22,13 +22,14 @@ public class MainWindow extends JFrame{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
+
         requete.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                requeteForm page2 = new requeteForm();
 
-                                      public void actionPerformed(ActionEvent e) {
+            }
 
-                                      }
-
-                                  });
+        });
     }
 
 
