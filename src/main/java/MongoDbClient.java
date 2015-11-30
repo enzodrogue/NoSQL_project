@@ -6,6 +6,7 @@ import com.mongodb.client.MongoDatabase;
 import org.bson.BsonDocument;
 import org.bson.Document;
 
+import javax.swing.*;
 import java.time.temporal.JulianFields;
 import java.util.Arrays;
 import java.util.Date;
@@ -72,6 +73,10 @@ public class MongoDbClient {
 //                System.out.println(document);
 //            }
 //        });
+        //*****************************************************
+        //permet d'ouvrir l'interface
+        //****************************************************/
+        MainWindow page = new MainWindow();
 
 
 
